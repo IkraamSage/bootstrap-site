@@ -14,7 +14,9 @@
     <title>Bootstrap Website</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+    <nav
+      class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 fixed-top"
+    >
       <div class="container">
         <a href="#" class="navbar-brand">Sage's Website</a>
         <button
@@ -40,14 +42,28 @@
         </div>
       </div>
     </nav>
-    <section class="bg-light text-dark p-5 text-center">
+    <section
+      class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
       <div class="container">
-        <div class="d-flex">
+        <div class="d-sm-flex align-items-center justify-content-between">
           <div>
-            <h1>Let Me Build your Website</h1>
+            <h1>Islamic <span class="text-success"> Website </span></h1>
+            <p class="lead my-4">
+              We focus on teaching our students the fundamentals of Islam and
+              teach them to be pious
+            </p>
+            <button
+              class="btn btn-success btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Start The Enrollment
+            </button>
           </div>
           <img
-            src="https://www.frontendbootcampdemo.com/img/showcase.svg"
+            class="img-fluid w-50 d-none d-sm-block"
+            src="/images/shahada-1769598.svg"
             alt=""
           />
         </div>
